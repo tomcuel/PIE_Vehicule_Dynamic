@@ -91,6 +91,7 @@ Here is the full optimization problem :
 
 <img src="./Visuals/Optimization_Problem.png" alt="Optimization_Problem" width="600" height="300"/>
 
+Here it's doing as if the vehicle was launched with an initial speed but it could be modify to take this into account but just calculating what a real start will cost, and then doing the other laps with this output.
 
 ## Results
 We can see on the results that the speeds remains pretty much constant (15km/k differences at most) to preserve energy consumption, but when there are turns, the vehicle slowdowns to accelerate again after the curves. The power is also following the same pattern, and the constraint detects curves, acceleration and braking limits.
