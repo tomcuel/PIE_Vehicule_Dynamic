@@ -61,7 +61,7 @@ The real track look like this on Google Maps, with the path given by the organiz
 
 After downloading the datas, I found the shortest path *(for my modelling)* through the track. At the end of the day, instead of covering 1,319 meters per lap, we only need to complete 1,272 meters. This 47-meter reduction could be a game-changer in a challenge where maximizing the energy available at the end of a given number of laps is what determines the performance.
 
-<img src="./PIE_Track/Visuals/track_visual_lat_long.png" alt="difference_paths" width="400" height="200"/>
+<img src="./Visuals/track_visual_lat_long.png" alt="difference_paths" width="400" height="200"/>
 
 All of this can be found in the following GitHub repositery : 
 
