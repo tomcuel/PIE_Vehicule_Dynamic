@@ -63,7 +63,7 @@ After downloading the datas, I found the shortest path *(for my modelling)* thro
 
 <img src="./Visuals/track_visual_lat_long.png" alt="difference_paths" width="400" height="200"/>
 
-All of this can be found in the following GitHub repositery : 
+All of this can be found in the following GitHub repositery : https://github.com/tomcuel/PIE_Trajectory_Optimisation
 
 
 ## Modelisation
