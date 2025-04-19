@@ -72,6 +72,11 @@ All of this can be found in the following GitHub repositery : https://github.com
 ## Results
 
 
+<img src="./Visuals/speeds_and_powers.png" alt="speeds_and_powers" width="400" height="200"/>
+
+<img src="./Visuals/constraints.png" alt="constraints" width="400" height="200"/>
+
+
 ## Possible improvements
 - Using less "black box" method, like I did during various others project, but it would have take way more time, not to use the scipy.optimize library
 - The modelisation could take more parameters, so the physics better fit the reality and its complexity 
