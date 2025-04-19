@@ -69,11 +69,26 @@ All of this can be found in the following GitHub repositery : https://github.com
 ## Modelisation
 To model the physic of the vehicle, I used to [this document](./DYN-Dynamique.pdf). I didn't include the "essieu moteur" things since our vehicle doesn't have a transmission system, and here are the different parameters values taken for the moment, that could be changed depending on the vehicle and challenge specs : 
 ```py
-def test(n) : 
-    return test
-
+# === Parameters ===
+M = 100  # kg
+m_roue = 1  # kg
+Cx = 0.12
+Sf = 0.3
+rho_air = 1.2
+Crr = 0.0015
+g = 9.81
+mu = 0.8
+r_roue = 0.3
+eta_transmission = 0.9
+P_max = 2000  # W
+Max_speed = 20  # m/s
+Min_speed = 5  # m/s
+a_brake_max = 2.0  # m/s²
+a_max = 0.5 # m/s²
+T_lap = 90  # Target lap time in seconds
 ```
-
+Here is the full optimization problem : 
+<img src="./Visuals/Optimization_Problem.png" alt="Optimization_Problem" width="400" height="400"/>
 
 
 ## Results
@@ -87,3 +102,5 @@ We can see on the results that the speeds remains pretty much constant (15km/k d
 ## Possible improvements
 - Using less "black box" method, like I did during various others project, but it would have take way more time, not to use the scipy.optimize library
 - The modelisation could take more parameters, so the physics better fit the reality and its complexity 
+- I skipped half the points to make things faster to solve, but with greater time available, all points could be considered
+- Power outputs could be saved in a csv file and adapted to the vehicle component as a tension to deliver but that's not that much important. It could be done later 
