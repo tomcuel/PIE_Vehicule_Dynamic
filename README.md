@@ -67,7 +67,12 @@ All of this can be found in the following GitHub repositery : https://github.com
 
 
 ## Modelisation
-To model the physic of the vehicle, I used to [this document](./DYN-Dynamique.pdf)..I didn't include the "essieu moteur" things since our vehicle doesn't have a transmission system, and here are the different parameters values taken for the moment, that could be changed depending on the vehicle and challenge specs.
+To model the physic of the vehicle, I used to [this document](./DYN-Dynamique.pdf). I didn't include the "essieu moteur" things since our vehicle doesn't have a transmission system, and here are the different parameters values taken for the moment, that could be changed depending on the vehicle and challenge specs : 
+```py
+def test(n) : 
+    return test
+
+```
 
 
 
