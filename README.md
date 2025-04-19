@@ -70,7 +70,7 @@ All of this can be found in the following GitHub repositery : https://github.com
 
 
 ## Results
-
+We can see on the results that the speeds remains pretty much constant (15km/k differences at most) to preserve energy consumption, but when there are turns, the vehicle slowdowns to accelerate again after the curves. The power is also following the same pattern, and the constraint detects curves, acceleration and braking limits.
 
 <img src="./Visuals/speeds_and_powers.png" alt="speeds_and_powers" width="600" height="400"/>
 
