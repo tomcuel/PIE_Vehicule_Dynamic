@@ -72,9 +72,9 @@ All of this can be found in the following GitHub repositery : https://github.com
 ## Results
 
 
-<img src="./Visuals/speeds_and_powers.png" alt="speeds_and_powers" width="400" height="200"/>
+<img src="./Visuals/speeds_and_powers.png" alt="speeds_and_powers" width="600" height="400"/>
 
-<img src="./Visuals/constraints.png" alt="constraints" width="400" height="200"/>
+<img src="./Visuals/constraints.png" alt="constraints" width="600" height="250"/>
 
 
 ## Possible improvements
