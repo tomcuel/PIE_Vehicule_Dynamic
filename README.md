@@ -88,7 +88,7 @@ a_max = 0.5 # m/s²
 T_lap = 90  # Target lap time in seconds
 ```
 Here is the full optimization problem : 
-<img src="./Visuals/Optimization_Problem.png" alt="Optimization_Problem" width="400" height="400"/>
+<img src="./Visuals/Optimization_Problem.png" alt="Optimization_Problem" width="600" height="300"/>
 
 
 ## Results
